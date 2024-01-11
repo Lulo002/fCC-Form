@@ -1,0 +1,54 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <meta lang="en">
+  <meta charset="utf-8">
+  <link type="stylesheet" href="styles.css">
+  <title>Research Survey</title>
+</html>
+
+
+
+<body>
+  <h1 id="title">Lulo002's Research Survey</h1>
+  <p id="description">Please fill in this short survey to participate in a College Paper</p>
+</body>
+
+<form id="survey-form">
+  <label id="name-label">
+Enter Your First Name <input id="name" type="text" placeholder="Your First Name" required/> </label>
+  <label id="email-label">Enter Your Email Address <input id="email" type="email" placeholder="Your Email" required/></label>
+  <label id="number-label">Enter Your Age <input id="number" type="number" placeholder="Your Age" min="13" max="120" required/></label>
+  <select id="dropdown">
+    <option value="null">(choose one option)</option>
+    <option value="americas">The Americas</option>
+    <option value="europe">Europe</option>
+    <option value="oceania">Oceania</option>
+    <option value="asia">Asia</option>
+  </select>
+  <label>Is this your first time filling a research paper survey?</label>
+  <input type="radio" name="silly-question" value="Y"><label>Yes</label>
+  <input type="radio" name="silly-question" value="N"><label>No</label>
+  <textarea placeholder="Observations/Feedback"></textarea>
+
+
+  <input type="checkbox" value="newsletter"><label> Would you like a copy of your answers sent to your Email Address?</label>
+  <input type="checkbox" value="ToS"><label> I have read and accept the Terms of Service</label>
+  <input id="submit" type="submit">
+</form>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: rgba(255,0,0,.4);
+}
+
+form {
+  border: 2px solid black;
+}
+
+** end of undefined **
+
